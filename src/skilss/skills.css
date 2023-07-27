@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #5671a6;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skillscard {
+  display: flex;
+  justify-content: center;
+}
+
+.smallcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+@media (min-width: 1040px) {
+  .title {
+    justify-content: flex-start;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+}
