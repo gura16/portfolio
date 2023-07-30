@@ -5,3 +5,93 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.projectstext {
+  color: #5671a6;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #dbdbdb;
+  border-radius: 10px;
+  position: relative;
+}
+
+.allcontainer {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.live {
+  width: 60px;
+  color: #5671a6;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #36ce34;
+  cursor: pointer;
+}
+
+.repo {
+  width: 110px;
+  color: #5671a6;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #36ce34;
+  cursor: pointer;
+}
+
+.liverepo {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  top: 210px;
+}
+
+.foto {
+  width: 228px;
+  height: 228px;
+  border-radius: 10px;
+}
+
+.foto:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media (min-width: 1040px) {
+  .projectstext {
+    text-align: start;
+  }
+
+  .allcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
