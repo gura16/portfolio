@@ -5,7 +5,16 @@ import typemaster from "../image/typemaster.png";
 import clipboardpage from "../image/clipboardpage.png";
 import podrequest from "../image/podrequest.png";
 import timer from "../image/timer.png";
-
+import photosnap from "../image/photosnap.png";
+import advice from "../image/advice.png";
+import calculator from "../image/calculator.png";
+import acordingcard from "../image/acordingcard.png";
+import pricing from "../image/pricing.png";
+import passwordgen from "../image/passwordgen.png";
+import tipcalculator from "../image/tipcalculator.png";
+import intractive from "../image/Intractive.png";
+import notification from "../image/notification.png";
+import todo from "../image/todo.png";
 function Projects() {
   return (
     <div>
@@ -46,9 +55,56 @@ function Projects() {
           link="https://gura16.github.io/launch-countdown-timer/"
           repo="https://github.com/gura16/launch-countdown-timer"
         />
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
+        <Projectcard
+          foto={photosnap}
+          link="https://photosnap-multi-page-website-010-f5oy1clrq-beqa200.vercel.app/index.html"
+          repo="https://github.com/beqa200/photosnap-multi-page-website-010"
+        />
+        <Projectcard
+          foto={advice}
+          link="https://gura16.github.io/generetot-app/"
+          repo="https://github.com/gura16/generetot-app"
+        />
+        <Projectcard
+          foto={calculator}
+          link="https://gura16.github.io/calc-app/"
+          repo="https://github.com/gura16/calc-app"
+        />
+        <Projectcard
+          foto={acordingcard}
+          link="https://gura16.github.io/faq-accordion-card/"
+          repo="https://github.com/gura16/faq-accordion-card"
+        />
+        <Projectcard
+          foto={pricing}
+          link="https://gura16.github.io/interactive-pricing-component/"
+          repo="https://github.com/gura16/interactive-pricing-component"
+        />
+        <Projectcard
+          foto={passwordgen}
+          link="https://gura16.github.io/password-generator/"
+          repo="https://github.com/gura16/password-generator"
+        />
+        <Projectcard
+          foto={tipcalculator}
+          link="https://gura16.github.io/tip-calculator/"
+          repo="https://github.com/gura16/tip-calculator"
+        />
+        <Projectcard
+          foto={intractive}
+          link="https://gura16.github.io/Intractive-rating-component/"
+          repo="https://github.com/gura16/Intractive-rating-component"
+        />
+        <Projectcard
+          foto={notification}
+          link="https://notification-page-livid.vercel.app/"
+          repo="https://github.com/gura16/notification-page"
+        />
+        <Projectcard
+          foto={todo}
+          link="https://to-do-app-gura16.vercel.app/"
+          repo="https://github.com/gura16/TO-DO-APP"
+        />
       </div>
     </div>
   );
