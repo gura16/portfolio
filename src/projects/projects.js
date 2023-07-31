@@ -124,7 +124,7 @@ function Projectcard(props) {
             LIVE
           </a>
           <a className="repo" href={props.repo}>
-            REPOZITORY
+            REPOSITORY
           </a>
         </div>
       </div>
