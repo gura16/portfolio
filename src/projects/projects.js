@@ -14,6 +14,7 @@ import passwordgen from "../image/passwordgen.png";
 import tipcalculator from "../image/tipcalculator.png";
 import intractive from "../image/Intractive.png";
 import notification from "../image/notification.png";
+import order from "../image/order.png";
 import todo from "../image/todo.png";
 function Projects() {
   return (
@@ -22,9 +23,11 @@ function Projects() {
         <p className="projectstext">PROJECTS</p>
       </div>
       <div className="allcontainer">
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
+        <Projectcard
+          foto={order}
+          link="https://order-summary-gura16.vercel.app/"
+          repo="https://github.com/gura16/order-summary-"
+        />
         <Projectcard
           foto={landingpage}
           link="https://gura16.github.io/skilled-elearning-landing-page/"

@@ -28,7 +28,7 @@ experience"
             years="Completed
   projects"
             image={image7}
-            number="15"
+            number="17"
           />
           <Childcomponent
             years="Companies
@@ -58,12 +58,21 @@ worked"
           university="GEORGIA-ilia state university"
           icon={image13}
           year="2011-2015"
+          site="https://iliauni.edu.ge/ge"
         />
         <Educationcomponent
           profession="international relations"
           university="GEORGIA-Technical University"
           icon={image13}
           year="2015-2017"
+          site="https://gtu.ge/"
+        />
+        <Educationcomponent
+          profession="Frontend Developer"
+          university="Bitcamp"
+          icon={image13}
+          year="2022-2023"
+          site="https://www.bitcamp.ge/"
         />
       </div>
     </div>
@@ -84,7 +93,11 @@ function Educationcomponent(props) {
   return (
     <div className="educationcomp">
       <p className="profession">{props.profession}</p>
-      <p className="university">{props.university}</p>
+
+      <a href={props.site} className="university">
+        {props.university}
+      </a>
+
       <div className="iconyear">
         <img src={props.icon} />
         <p>{props.year}</p>

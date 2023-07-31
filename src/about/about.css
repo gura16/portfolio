@@ -161,8 +161,12 @@ h6 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
 }
 
+.university:hover {
+  color: #da1a1a;
+}
 .childcomponentdiv {
   display: flex;
   flex-direction: column;

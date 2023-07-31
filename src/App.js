@@ -2,10 +2,10 @@ import Skills from "./skilss/skills";
 import About from "./about/about";
 import Projects from "./projects/projects";
 import "./App.css";
-import image1 from "./image/profile-picture.svg";
+import image1 from "./image/myimage.JPG";
 import image2 from "./image/FB.svg";
 import image3 from "./image/Github.svg";
-import image4 from "./image/instagram.svg";
+import image4 from "./image/linkedin.svg";
 import image5 from "./image/TW.svg";
 import React, { useState } from "react";
 
@@ -36,14 +36,22 @@ function App() {
             <h5>GURAMI KVAKHADZE</h5>
             <p className="developer">Frontend Developer</p>
             <p className="developer-experience">
-              High level experience in web design and development knowledge.
+              Junior Frontend/React Developer
             </p>
           </div>
           <div className="icons">
-            <img className="icon" src={image2} />
-            <img className="icon" src={image3} />
-            <img className="icon" src={image4} />
-            <img className="icon" src={image5} />
+            <a href="https://www.facebook.com/sfsdegf/">
+              <img className="icon" src={image2} />
+            </a>
+            <a href="https://github.com/gura16">
+              <img className="icon" src={image3} />
+            </a>
+            <a href="https://www.linkedin.com/in/gurami-kvakhadze-03b06a246/">
+              <img className="icon" src={image4} />
+            </a>
+            <a href="https://twitter.com/GuraKvaxad58277">
+              <img className="icon" src={image5} />
+            </a>
           </div>
           <div className="contactme">Contact Me</div>
         </div>
