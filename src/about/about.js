@@ -28,7 +28,7 @@ experience"
             years="Completed
   projects"
             image={image7}
-            number="17"
+            number="19"
           />
           <Childcomponent
             years="Companies

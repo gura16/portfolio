@@ -16,6 +16,8 @@ import intractive from "../image/Intractive.png";
 import notification from "../image/notification.png";
 import order from "../image/order.png";
 import todo from "../image/todo.png";
+import card from "../image/card.png";
+import githubserch from "../image/githubsearch.png";
 function Projects() {
   return (
     <div>
@@ -107,6 +109,16 @@ function Projects() {
           foto={todo}
           link="https://to-do-app-gura16.vercel.app/"
           repo="https://github.com/gura16/TO-DO-APP"
+        />
+        <Projectcard
+          repo="https://github.com/gura16/card-details-form"
+          link="https://card-details-form-two.vercel.app/"
+          foto={card}
+        />
+        <Projectcard
+          foto={githubserch}
+          link="github-user-search-app-gura16.vercel.app"
+          repo="https://github.com/gura16/github-user-search-app"
         />
       </div>
     </div>
