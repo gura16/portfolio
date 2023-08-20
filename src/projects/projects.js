@@ -118,6 +118,7 @@ function Projects() {
         <Projectcard
           foto={githubserch}
           link="https://github-user-search-app-gura16.vercel.app/"
+          repo="https://github.com/gura16/github-user-search-app"
         />
       </div>
     </div>
