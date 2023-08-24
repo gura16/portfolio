@@ -18,6 +18,7 @@ import order from "../image/order.png";
 import todo from "../image/todo.png";
 import card from "../image/card.png";
 import githubserch from "../image/githubsearch.png";
+import clock from "./image/clock.png";
 function Projects() {
   return (
     <div>
@@ -119,6 +120,11 @@ function Projects() {
           foto={githubserch}
           link="https://github-user-search-app-gura16.vercel.app/"
           repo="https://github.com/gura16/github-user-search-app"
+        />
+        <Projectcard
+          foto={clock}
+          link="https://clock-app-rust.vercel.app/"
+          repo="https://github.com/gura16/CLOCK-APP"
         />
       </div>
     </div>
