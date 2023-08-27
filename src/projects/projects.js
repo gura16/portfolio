@@ -121,11 +121,11 @@ function Projects() {
           link="https://github-user-search-app-gura16.vercel.app/"
           repo="https://github.com/gura16/github-user-search-app"
         />
-        {/* <Projectcard
+        <Projectcard
           foto={clock}
           link="https://clock-app-rust.vercel.app/"
           repo="https://github.com/gura16/CLOCK-APP"
-        /> */}
+        />
       </div>
     </div>
   );
