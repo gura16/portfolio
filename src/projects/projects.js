@@ -19,6 +19,7 @@ import todo from "../image/todo.png";
 import card from "../image/card.png";
 import githubserch from "../image/githubsearch.png";
 import clock from "../image/clock.png";
+import planet from "../image/planet.png";
 function Projects() {
   return (
     <div>
@@ -125,6 +126,11 @@ function Projects() {
           foto={clock}
           link="https://clock-app-rust.vercel.app/"
           repo="https://github.com/gura16/CLOCK-APP"
+        />
+        <Projectcard
+          foto={planet}
+          link="https://planets-site-beta.vercel.app/mercury"
+          repo="https://github.com/gura16/planets-site"
         />
       </div>
     </div>
