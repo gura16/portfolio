@@ -129,7 +129,7 @@ function Projects() {
         />
         <Projectcard
           foto={planet}
-          link="https://planets-site-beta.vercel.app/mercury"
+          link="https://planets-site-beta.vercel.app"
           repo="https://github.com/gura16/planets-site"
         />
       </div>
